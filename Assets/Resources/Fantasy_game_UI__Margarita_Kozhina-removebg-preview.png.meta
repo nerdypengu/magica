@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 7e23548916007214281501236ec54ec3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2553138298249700592
+    second: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_0
+  - first:
+      213: 2385913289354143780
+    second: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_1
+  - first:
+      213: -5704170050922968837
+    second: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_2
+  - first:
+      213: -4900332569519484197
+    second: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_3
+  - first:
+      213: 8413889772989130345
+    second: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_4
+  - first:
+      213: -6632577297284258980
+    second: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_5
+  - first:
+      213: -3542700801241033142
+    second: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_6
+  - first:
+      213: 630901751656331743
+    second: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_7
+  - first:
+      213: 5750167788080818863
+    second: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 605
+        width: 106
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b916eae3e619cd0800000000000000
+      internalID: -2553138298249700592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 605
+        width: 209
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42866dcde777c1120800000000000000
+      internalID: 2385913289354143780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 473
+        width: 253
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf880588f87b6d0b0800000000000000
+      internalID: -5704170050922968837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 341
+        width: 262
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd29388bd758efbb0800000000000000
+      internalID: -4900332569519484197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 207
+        width: 232
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9662f4a7b2424c470800000000000000
+      internalID: 8413889772989130345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 75
+        width: 232
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c532d0ac61a54f3a0800000000000000
+      internalID: -6632577297284258980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 41
+        width: 102
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46598c246cc5dec0800000000000000
+      internalID: -3542700801241033142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 10
+        width: 216
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9b5abecc961c800800000000000000
+      internalID: 630901751656331743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasy_game_UI__Margarita_Kozhina-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11
+        width: 103
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa63773323bccf40800000000000000
+      internalID: 5750167788080818863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fantasy_game_UI__Margarita_Kozhina-removebg-preview_0: -2553138298249700592
+      Fantasy_game_UI__Margarita_Kozhina-removebg-preview_1: 2385913289354143780
+      Fantasy_game_UI__Margarita_Kozhina-removebg-preview_2: -5704170050922968837
+      Fantasy_game_UI__Margarita_Kozhina-removebg-preview_3: -4900332569519484197
+      Fantasy_game_UI__Margarita_Kozhina-removebg-preview_4: 8413889772989130345
+      Fantasy_game_UI__Margarita_Kozhina-removebg-preview_5: -6632577297284258980
+      Fantasy_game_UI__Margarita_Kozhina-removebg-preview_6: -3542700801241033142
+      Fantasy_game_UI__Margarita_Kozhina-removebg-preview_7: 630901751656331743
+      Fantasy_game_UI__Margarita_Kozhina-removebg-preview_8: 5750167788080818863
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

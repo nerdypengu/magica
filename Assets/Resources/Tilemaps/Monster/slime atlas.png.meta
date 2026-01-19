@@ -1,0 +1,2873 @@
+fileFormatVersion: 2
+guid: 627731f54ebe301458334cb36aa0006e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8837790384139491679
+    second: slime atlas_0
+  - first:
+      213: -8636171779930632468
+    second: slime atlas_1
+  - first:
+      213: -4416514536561647419
+    second: slime atlas_2
+  - first:
+      213: 6834406097166409742
+    second: slime atlas_3
+  - first:
+      213: -3325239323524165104
+    second: slime atlas_4
+  - first:
+      213: 6293377988141630095
+    second: slime atlas_5
+  - first:
+      213: -9074865850766896357
+    second: slime atlas_6
+  - first:
+      213: 192710611281807884
+    second: slime atlas_7
+  - first:
+      213: 9195048711423957024
+    second: slime atlas_8
+  - first:
+      213: -4534909220536738523
+    second: slime atlas_9
+  - first:
+      213: 307106480942888231
+    second: slime atlas_10
+  - first:
+      213: -2330412616545404019
+    second: slime atlas_11
+  - first:
+      213: -1743047524767102602
+    second: slime atlas_12
+  - first:
+      213: -2839891842438526311
+    second: slime atlas_13
+  - first:
+      213: 2792302924052948957
+    second: slime atlas_14
+  - first:
+      213: -2462298715763279637
+    second: slime atlas_15
+  - first:
+      213: 2642489004886325732
+    second: slime atlas_16
+  - first:
+      213: 2794253068921600705
+    second: slime atlas_17
+  - first:
+      213: -6087053408500538939
+    second: slime atlas_18
+  - first:
+      213: 5197013570107954939
+    second: slime atlas_19
+  - first:
+      213: 6959617784929960081
+    second: slime atlas_20
+  - first:
+      213: -8263244070565335704
+    second: slime atlas_21
+  - first:
+      213: 505740038149645246
+    second: slime atlas_22
+  - first:
+      213: -650619171561405156
+    second: slime atlas_23
+  - first:
+      213: -6845152990195012975
+    second: slime atlas_24
+  - first:
+      213: 2868688844406691015
+    second: slime atlas_25
+  - first:
+      213: 2084909536858711662
+    second: slime atlas_26
+  - first:
+      213: 6470741979161513106
+    second: slime atlas_27
+  - first:
+      213: 8165978368464220934
+    second: slime atlas_28
+  - first:
+      213: -3578464921060926651
+    second: slime atlas_29
+  - first:
+      213: 4926671250519620798
+    second: slime atlas_30
+  - first:
+      213: -8717925499312260421
+    second: slime atlas_31
+  - first:
+      213: -6816877702297616902
+    second: slime atlas_32
+  - first:
+      213: -6833684331409185595
+    second: slime atlas_33
+  - first:
+      213: 7558026628577502853
+    second: slime atlas_34
+  - first:
+      213: 373802294050565937
+    second: slime atlas_35
+  - first:
+      213: -4756871954853482410
+    second: slime atlas_36
+  - first:
+      213: 3533163840633447231
+    second: slime atlas_37
+  - first:
+      213: -2715847402629369085
+    second: slime atlas_38
+  - first:
+      213: 1867602470093284040
+    second: slime atlas_39
+  - first:
+      213: 4369037088355158672
+    second: slime atlas_40
+  - first:
+      213: 3437781045728326871
+    second: slime atlas_41
+  - first:
+      213: -5895999414171156841
+    second: slime atlas_42
+  - first:
+      213: -7247875390468095964
+    second: slime atlas_43
+  - first:
+      213: 3481534114298283077
+    second: slime atlas_44
+  - first:
+      213: 4018359956990193886
+    second: slime atlas_45
+  - first:
+      213: 1121049892343818842
+    second: slime atlas_46
+  - first:
+      213: 5096129838564338582
+    second: slime atlas_47
+  - first:
+      213: -2305343656075290572
+    second: slime atlas_48
+  - first:
+      213: 6991414949454562203
+    second: slime atlas_49
+  - first:
+      213: -364793338335494739
+    second: slime atlas_50
+  - first:
+      213: -7838576317837381982
+    second: slime atlas_51
+  - first:
+      213: 227000697694270706
+    second: slime atlas_52
+  - first:
+      213: -9012215319507377102
+    second: slime atlas_53
+  - first:
+      213: 1974467015005152166
+    second: slime atlas_54
+  - first:
+      213: 2477533279124267429
+    second: slime atlas_55
+  - first:
+      213: 8634265273212564063
+    second: slime atlas_56
+  - first:
+      213: -8745263035954341440
+    second: slime atlas_57
+  - first:
+      213: -7771668131085157885
+    second: slime atlas_58
+  - first:
+      213: -853425215380622767
+    second: slime atlas_59
+  - first:
+      213: -8186245264518125072
+    second: slime atlas_60
+  - first:
+      213: -5603093834387706096
+    second: slime atlas_61
+  - first:
+      213: -2797079704255328161
+    second: slime atlas_62
+  - first:
+      213: 7882961727173996939
+    second: slime atlas_63
+  - first:
+      213: -2120407339370312550
+    second: slime atlas_64
+  - first:
+      213: -5586831995929584427
+    second: slime atlas_65
+  - first:
+      213: 7299932516308089084
+    second: slime atlas_66
+  - first:
+      213: -2763962234826594365
+    second: slime atlas_67
+  - first:
+      213: -2956251403842530593
+    second: slime atlas_68
+  - first:
+      213: -8385250852041797002
+    second: slime atlas_69
+  - first:
+      213: 2219860777361272822
+    second: slime atlas_70
+  - first:
+      213: 4863342441052114562
+    second: slime atlas_71
+  - first:
+      213: 7386237210610730357
+    second: slime atlas_72
+  - first:
+      213: 7727851329542835602
+    second: slime atlas_73
+  - first:
+      213: 6639749259661623737
+    second: slime atlas_74
+  - first:
+      213: 2847760873065630753
+    second: slime atlas_75
+  - first:
+      213: 7232043803695636932
+    second: slime atlas_76
+  - first:
+      213: 4291375293487437576
+    second: slime atlas_77
+  - first:
+      213: 8606130932509807040
+    second: slime atlas_78
+  - first:
+      213: -4724989627722609033
+    second: slime atlas_79
+  - first:
+      213: 3146054212914644537
+    second: slime atlas_80
+  - first:
+      213: 7513139490288546560
+    second: slime atlas_81
+  - first:
+      213: -1404357499830506003
+    second: slime atlas_82
+  - first:
+      213: -7464204547167187879
+    second: slime atlas_83
+  - first:
+      213: 3108071370599959984
+    second: slime atlas_84
+  - first:
+      213: -4758938017402665555
+    second: slime atlas_85
+  - first:
+      213: -8509027474365622997
+    second: slime atlas_86
+  - first:
+      213: -534318878177509629
+    second: slime atlas_87
+  - first:
+      213: 637063148540399147
+    second: slime atlas_88
+  - first:
+      213: 1362261351481883914
+    second: slime atlas_89
+  - first:
+      213: 3281905555443213347
+    second: slime atlas_90
+  - first:
+      213: -5299856745709007000
+    second: slime atlas_91
+  - first:
+      213: 6813268961557795848
+    second: slime atlas_92
+  - first:
+      213: -2561249261374446035
+    second: slime atlas_93
+  - first:
+      213: 942561343606162609
+    second: slime atlas_94
+  - first:
+      213: -1991270851260051750
+    second: slime atlas_95
+  - first:
+      213: 6924342037505374039
+    second: slime atlas_96
+  - first:
+      213: 8951058116124725941
+    second: slime atlas_97
+  - first:
+      213: 4340148157800292567
+    second: slime atlas_98
+  - first:
+      213: 3142139322961409845
+    second: slime atlas_99
+  - first:
+      213: -4682593622961134199
+    second: slime atlas_100
+  - first:
+      213: -4715056708339664357
+    second: slime atlas_101
+  - first:
+      213: 8802496366567740661
+    second: slime atlas_102
+  - first:
+      213: 2491136314480140950
+    second: slime atlas_103
+  - first:
+      213: -3023951973210433113
+    second: slime atlas_104
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slime atlas_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 105
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f595ffd978326aa70800000000000000
+      internalID: 8837790384139491679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 105
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee4bf5c587262880800000000000000
+      internalID: -8636171779930632468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 105
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0e4eebd6365b2c0800000000000000
+      internalID: -4416514536561647419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e002e589220b8de50800000000000000
+      internalID: 6834406097166409742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 104
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0129e2004706ad1d0800000000000000
+      internalID: -3325239323524165104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82c17cbfe1965750800000000000000
+      internalID: 6293377988141630095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1357b4e6999f0280800000000000000
+      internalID: -9074865850766896357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a86e9a745aca200800000000000000
+      internalID: 192710611281807884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02896d8e5106b9f70800000000000000
+      internalID: 9195048711423957024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d93454714c011c0800000000000000
+      internalID: -4534909220536738523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72532d0a7bf034400800000000000000
+      internalID: 307106480942888231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bf8b28216b8afd0800000000000000
+      internalID: -2330412616545404019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_12
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67902a3e2837fc7e0800000000000000
+      internalID: -1743047524767102602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a0cea6a6da698d0800000000000000
+      internalID: -2839891842438526311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7e57517b040c620800000000000000
+      internalID: 2792302924052948957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be877042d5824ddd0800000000000000
+      internalID: -2462298715763279637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9ff1bdfb10ca420800000000000000
+      internalID: 2642489004886325732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cafd919c5e27c620800000000000000
+      internalID: 2794253068921600705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_18
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 105
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1ae71fc21768ba0800000000000000
+      internalID: -6087053408500538939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf65b2b9e408f1840800000000000000
+      internalID: 5197013570107954939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 89
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190cd337087859060800000000000000
+      internalID: 6959617784929960081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_21
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 89
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86da9916c4f035d80800000000000000
+      internalID: -8263244070565335704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_22
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 87
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb32a9a92efb40700800000000000000
+      internalID: 505740038149645246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1506038f4988f6f0800000000000000
+      internalID: -650619171561405156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a29326f912101a0800000000000000
+      internalID: -6845152990195012975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_25
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c49cf51e41afc720800000000000000
+      internalID: 2868688844406691015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66a94d6d261fec10800000000000000
+      internalID: 2084909536858711662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_27
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c412deb81bcc950800000000000000
+      internalID: 6470741979161513106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60375d79f02635170800000000000000
+      internalID: 8165978368464220934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_29
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b97f22d1db65ec0800000000000000
+      internalID: -3578464921060926651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_30
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcf954566d0f5440800000000000000
+      internalID: 4926671250519620798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_31
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba3c2ba2f4b30780800000000000000
+      internalID: -8717925499312260421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_32
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdf44dd8d59561a0800000000000000
+      internalID: -6816877702297616902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_33
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4e3379e40e921a0800000000000000
+      internalID: -6833684331409185595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_34
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5862e4fac2183e860800000000000000
+      internalID: 7558026628577502853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f2c19b433003500800000000000000
+      internalID: 373802294050565937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_36
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 87
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650b0f8f8223cfdb0800000000000000
+      internalID: -4756871954853482410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 73
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3326362bc1580130800000000000000
+      internalID: 3533163840633447231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_38
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 73
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303fb1e2d2f5f4ad0800000000000000
+      internalID: -2715847402629369085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_39
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 73
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c26d833d8e0be910800000000000000
+      internalID: 1867602470093284040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_40
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 75
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a8aed6510f1ac30800000000000000
+      internalID: 4369037088355158672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_41
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4353e95a375bf20800000000000000
+      internalID: 3437781045728326871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eba6a65c33d2ea0800000000000000
+      internalID: -5895999414171156841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4208ad6bbbf5a6b90800000000000000
+      internalID: -7247875390468095964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_44
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544472cb4d4e05030800000000000000
+      internalID: 3481534114298283077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_45
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0fd08371514c730800000000000000
+      internalID: 4018359956990193886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aa4a000f4ce8f00800000000000000
+      internalID: 1121049892343818842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_47
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b65e4761719b640800000000000000
+      internalID: 5096129838564338582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_48
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4389e66b826c100e0800000000000000
+      internalID: -2305343656075290572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_49
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93489bbade760160800000000000000
+      internalID: 6991414949454562203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_50
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad751c346effeaf0800000000000000
+      internalID: -364793338335494739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_51
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae63869e58c73390800000000000000
+      internalID: -7838576317837381982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_52
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f435dd8ee7762300800000000000000
+      internalID: 227000697694270706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_53
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234ed696aed2ee280800000000000000
+      internalID: -9012215319507377102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_54
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 73
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3ab1af947b66b10800000000000000
+      internalID: 1974467015005152166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_55
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1296d0467f16220800000000000000
+      internalID: 2477533279124267429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_56
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 57
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52735a058213d770800000000000000
+      internalID: 8634265273212564063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_57
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 57
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9569a6a9592a680800000000000000
+      internalID: -8745263035954341440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_58
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30af176c20d752490800000000000000
+      internalID: -7771668131085157885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_59
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15270eac9460824f0800000000000000
+      internalID: -853425215380622767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_60
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f96c24fd4d946e80800000000000000
+      internalID: -8186245264518125072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_61
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fa32618dfcd32b0800000000000000
+      internalID: -5603093834387706096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_62
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50186b14d6ce29d0800000000000000
+      internalID: -2797079704255328161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_63
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81b436dce7e56d60800000000000000
+      internalID: 7882961727173996939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_64
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c83bd52ccc292e0800000000000000
+      internalID: -2120407339370312550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_65
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc94d666e59772b0800000000000000
+      internalID: -5586831995929584427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_66
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8fdd662f19e4560800000000000000
+      internalID: 7299932516308089084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_67
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7e094ddfe64a9d0800000000000000
+      internalID: -2763962234826594365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_68
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd25737d20949f6d0800000000000000
+      internalID: -2956251403842530593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_69
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672d18be6ca91ab80800000000000000
+      internalID: -8385250852041797002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_70
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffe07d9d978ece10800000000000000
+      internalID: 2219860777361272822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_71
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e0efbde201e7340800000000000000
+      internalID: 4863342441052114562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 41
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575893deb9f218660800000000000000
+      internalID: 7386237210610730357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_73
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 41
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d4e6e17d7de3b60800000000000000
+      internalID: 7727851329542835602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_74
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 41
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b14bc3d5c0252c50800000000000000
+      internalID: 6639749259661623737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_75
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 38
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c455c0d67458720800000000000000
+      internalID: 2847760873065630753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_76
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1e75fb5816d5460800000000000000
+      internalID: 7232043803695636932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_77
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807d43eb7170e8b30800000000000000
+      internalID: 4291375293487437576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_78
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c19fb26c7e1f6770800000000000000
+      internalID: 8606130932509807040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_79
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e4038b7f67d6eb0800000000000000
+      internalID: -4724989627722609033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_80
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93606ec53a709ab20800000000000000
+      internalID: 3146054212914644537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_81
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003bb926f88044860800000000000000
+      internalID: 7513139490288546560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_82
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded62f46b48b28ce0800000000000000
+      internalID: -1404357499830506003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_83
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c8e3be281d96890800000000000000
+      internalID: -7464204547167187879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_84
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd0c2db176122b20800000000000000
+      internalID: 3108071370599959984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_85
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5cc9c461bd4fdb0800000000000000
+      internalID: -4758938017402665555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_86
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25d566489cd9e980800000000000000
+      internalID: -8509027474365622997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_87
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fb17dafc7b598f0800000000000000
+      internalID: -534318878177509629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_88
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e0e3cee8d47d800800000000000000
+      internalID: 637063148540399147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_89
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 45
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d325a4b79b7e210800000000000000
+      internalID: 1362261351481883914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 25
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324e292e6bbab8d20800000000000000
+      internalID: 3281905555443213347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_91
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 25
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f8e8f9e502376b0800000000000000
+      internalID: -5299856745709007000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_92
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 25
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804d8d4b5089d8e50800000000000000
+      internalID: 6813268961557795848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_93
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 5
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d266b8aed5d947cd0800000000000000
+      internalID: -2561249261374446035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_94
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 5
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b409a05c86a41d00800000000000000
+      internalID: 942561343606162609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_95
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 5
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade0e0306b59d54e0800000000000000
+      internalID: -1991270851260051750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_96
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 5
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757ffc87564381060800000000000000
+      internalID: 6924342037505374039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_97
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2dd7f8eeb883c70800000000000000
+      internalID: 8951058116124725941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0a04221cd4b3c30800000000000000
+      internalID: 4340148157800292567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_99
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 5
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537b6e3011f1b9b20800000000000000
+      internalID: 3142139322961409845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_100
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 21
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98564ebc8e5140fb0800000000000000
+      internalID: -4682593622961134199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_101
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 21
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a779bb7e0c09eb0800000000000000
+      internalID: -4715056708339664357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_102
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4dfe9cecfb82a70800000000000000
+      internalID: 8802496366567740661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_103
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 9
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6922aa7874b429220800000000000000
+      internalID: 2491136314480140950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime atlas_104
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 9
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a953f2b3b3c806d0800000000000000
+      internalID: -3023951973210433113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slime atlas_0: 8837790384139491679
+      slime atlas_1: -8636171779930632468
+      slime atlas_10: 307106480942888231
+      slime atlas_100: -4682593622961134199
+      slime atlas_101: -4715056708339664357
+      slime atlas_102: 8802496366567740661
+      slime atlas_103: 2491136314480140950
+      slime atlas_104: -3023951973210433113
+      slime atlas_11: -2330412616545404019
+      slime atlas_12: -1743047524767102602
+      slime atlas_13: -2839891842438526311
+      slime atlas_14: 2792302924052948957
+      slime atlas_15: -2462298715763279637
+      slime atlas_16: 2642489004886325732
+      slime atlas_17: 2794253068921600705
+      slime atlas_18: -6087053408500538939
+      slime atlas_19: 5197013570107954939
+      slime atlas_2: -4416514536561647419
+      slime atlas_20: 6959617784929960081
+      slime atlas_21: -8263244070565335704
+      slime atlas_22: 505740038149645246
+      slime atlas_23: -650619171561405156
+      slime atlas_24: -6845152990195012975
+      slime atlas_25: 2868688844406691015
+      slime atlas_26: 2084909536858711662
+      slime atlas_27: 6470741979161513106
+      slime atlas_28: 8165978368464220934
+      slime atlas_29: -3578464921060926651
+      slime atlas_3: 6834406097166409742
+      slime atlas_30: 4926671250519620798
+      slime atlas_31: -8717925499312260421
+      slime atlas_32: -6816877702297616902
+      slime atlas_33: -6833684331409185595
+      slime atlas_34: 7558026628577502853
+      slime atlas_35: 373802294050565937
+      slime atlas_36: -4756871954853482410
+      slime atlas_37: 3533163840633447231
+      slime atlas_38: -2715847402629369085
+      slime atlas_39: 1867602470093284040
+      slime atlas_4: -3325239323524165104
+      slime atlas_40: 4369037088355158672
+      slime atlas_41: 3437781045728326871
+      slime atlas_42: -5895999414171156841
+      slime atlas_43: -7247875390468095964
+      slime atlas_44: 3481534114298283077
+      slime atlas_45: 4018359956990193886
+      slime atlas_46: 1121049892343818842
+      slime atlas_47: 5096129838564338582
+      slime atlas_48: -2305343656075290572
+      slime atlas_49: 6991414949454562203
+      slime atlas_5: 6293377988141630095
+      slime atlas_50: -364793338335494739
+      slime atlas_51: -7838576317837381982
+      slime atlas_52: 227000697694270706
+      slime atlas_53: -9012215319507377102
+      slime atlas_54: 1974467015005152166
+      slime atlas_55: 2477533279124267429
+      slime atlas_56: 8634265273212564063
+      slime atlas_57: -8745263035954341440
+      slime atlas_58: -7771668131085157885
+      slime atlas_59: -853425215380622767
+      slime atlas_6: -9074865850766896357
+      slime atlas_60: -8186245264518125072
+      slime atlas_61: -5603093834387706096
+      slime atlas_62: -2797079704255328161
+      slime atlas_63: 7882961727173996939
+      slime atlas_64: -2120407339370312550
+      slime atlas_65: -5586831995929584427
+      slime atlas_66: 7299932516308089084
+      slime atlas_67: -2763962234826594365
+      slime atlas_68: -2956251403842530593
+      slime atlas_69: -8385250852041797002
+      slime atlas_7: 192710611281807884
+      slime atlas_70: 2219860777361272822
+      slime atlas_71: 4863342441052114562
+      slime atlas_72: 7386237210610730357
+      slime atlas_73: 7727851329542835602
+      slime atlas_74: 6639749259661623737
+      slime atlas_75: 2847760873065630753
+      slime atlas_76: 7232043803695636932
+      slime atlas_77: 4291375293487437576
+      slime atlas_78: 8606130932509807040
+      slime atlas_79: -4724989627722609033
+      slime atlas_8: 9195048711423957024
+      slime atlas_80: 3146054212914644537
+      slime atlas_81: 7513139490288546560
+      slime atlas_82: -1404357499830506003
+      slime atlas_83: -7464204547167187879
+      slime atlas_84: 3108071370599959984
+      slime atlas_85: -4758938017402665555
+      slime atlas_86: -8509027474365622997
+      slime atlas_87: -534318878177509629
+      slime atlas_88: 637063148540399147
+      slime atlas_89: 1362261351481883914
+      slime atlas_9: -4534909220536738523
+      slime atlas_90: 3281905555443213347
+      slime atlas_91: -5299856745709007000
+      slime atlas_92: 6813268961557795848
+      slime atlas_93: -2561249261374446035
+      slime atlas_94: 942561343606162609
+      slime atlas_95: -1991270851260051750
+      slime atlas_96: 6924342037505374039
+      slime atlas_97: 8951058116124725941
+      slime atlas_98: 4340148157800292567
+      slime atlas_99: 3142139322961409845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4 @@
+atas
+bawah
+kanan
+kiri
