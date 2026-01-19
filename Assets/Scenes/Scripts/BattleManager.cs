@@ -73,7 +73,7 @@ public class BattleManager : MonoBehaviour
     public int returnNodeID = 0; 
 
     [Header("Balancing")]
-    public float baseEnemyAttackSpeed = 60f; 
+    public float baseEnemyAttackSpeed = 90f; 
     public float baseEnemyDamage = 15f; 
     private int currentEnemyCount = 1;
     private float currentWaveAttackSpeed = 60f; 
@@ -350,9 +350,9 @@ public class BattleManager : MonoBehaviour
             waveProgressSlider.value = currentWave;
         }
         
-        // Semakin tinggi wave, semakin cepat attack speed (dikurangi 5 detik per wave)
-        currentWaveAttackSpeed = baseEnemyAttackSpeed - ((currentWave - 1) * 5f);
-        if (currentWaveAttackSpeed < 20f) currentWaveAttackSpeed = 20f; // Minimal 20 detik
+        // Semakin tinggi wave, semakin cepat attack speed (dikurangi 2 detik per wave)
+        currentWaveAttackSpeed = baseEnemyAttackSpeed - ((currentWave - 1) * 2f);
+        if (currentWaveAttackSpeed < 30f) currentWaveAttackSpeed = 30f;
         Debug.Log($"Wave {currentWave} Attack Speed: {currentWaveAttackSpeed}s");
 
         enemyStats.HealFull(); 
@@ -439,7 +439,6 @@ public class BattleManager : MonoBehaviour
                 activeLetterUI.RemoveAt(0);
             }
 
-            // [GUIDE SYSTEM] Huruf depan sudah hilang, update guide ke huruf berikutnya (kalau ada)
             UpdateGuideVisual();
 
             if (currentSpellQueue.Count == 0) PlayerAttack();

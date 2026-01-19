@@ -6,7 +6,10 @@ using UnityEngine.UI;
 using System.Linq;
 using TMPro;
 using Unity.InferenceEngine;
-using Unity.Mathematics; 
+using Unity.Mathematics;
+using Unity.Collections;
+using Unity.Burst;
+using Unity.Jobs; 
 
 public class YoloAlphabet : MonoBehaviour
 {
@@ -35,6 +38,9 @@ public class YoloAlphabet : MonoBehaviour
     public GameObject boxPrefab; 
     public Transform boxContainer; 
     public TextMeshProUGUI finalResultText;
+    
+    [Header("Optimization")]
+    public int boxPoolSize = 10; // Pre-warm pool size
 
     [Header("Output for Game")]
     public string currentDetectedWord;
@@ -55,6 +61,62 @@ public class YoloAlphabet : MonoBehaviour
 
     private bool isProcessing = false;
 
+    // Burst-compiled job for detection parsing
+    [BurstCompile]
+    struct DetectionParseJob : IJobParallelFor
+    {
+        [ReadOnly] public NativeArray<float> data;
+        public int numAnchors;
+        public int numClasses;
+        public float confidenceThreshold;
+        public int modelInputSize;
+        
+        [WriteOnly] public NativeArray<Detection> detections;
+        [WriteOnly] public NativeArray<bool> isValid;
+        
+        public void Execute(int i)
+        {
+            float maxConf = 0f;
+            int maxClass = -1;
+            
+            for (int c = 0; c < numClasses; c++)
+            {
+                float conf = data[(4 + c) * numAnchors + i];
+                if (conf > maxConf)
+                {
+                    maxConf = conf;
+                    maxClass = c;
+                }
+            }
+            
+            if (maxConf > confidenceThreshold)
+            {
+                float x = data[0 * numAnchors + i];
+                float y = data[1 * numAnchors + i];
+                float w = data[2 * numAnchors + i];
+                float h = data[3 * numAnchors + i];
+                
+                detections[i] = new Detection
+                {
+                    box = new Rect(
+                        (x - w / 2) / modelInputSize,
+                        (y - h / 2) / modelInputSize,
+                        w / modelInputSize,
+                        h / modelInputSize
+                    ),
+                    conf = maxConf,
+                    classId = maxClass
+                };
+                
+                isValid[i] = true;
+            }
+            else
+            {
+                isValid[i] = false;
+            }
+        }
+    }
+
     void Start()
     {
         model = ModelLoader.Load(modelAsset);
@@ -63,6 +125,14 @@ public class YoloAlphabet : MonoBehaviour
 
         if (labelsFile)
             labels = labelsFile.text.Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+        
+        // Pre-warm box pool
+        for (int i = 0; i < boxPoolSize; i++)
+        {
+            GameObject box = Instantiate(boxPrefab, boxContainer);
+            box.SetActive(false);
+            boxPool.Add(box);
+        }
     }
 
     void Update()
@@ -130,39 +200,45 @@ public class YoloAlphabet : MonoBehaviour
     void ProcessOutput(float[] data)
     {
         foreach (var box in boxPool) box.SetActive(false);
+        
+        // 1. Parse YOLO Output using Burst-compiled job
+        int numChannels = 4 + NUM_CLASSES;
+        int numAnchors = data.Length / numChannels;
+        
+        // Allocate native arrays
+        NativeArray<float> nativeData = new NativeArray<float>(data, Allocator.TempJob);
+        NativeArray<Detection> nativeDetections = new NativeArray<Detection>(numAnchors, Allocator.TempJob);
+        NativeArray<bool> isValid = new NativeArray<bool>(numAnchors, Allocator.TempJob);
+        
+        // Schedule job
+        var job = new DetectionParseJob
+        {
+            data = nativeData,
+            numAnchors = numAnchors,
+            numClasses = NUM_CLASSES,
+            confidenceThreshold = confidenceThreshold,
+            modelInputSize = modelInputSize,
+            detections = nativeDetections,
+            isValid = isValid
+        };
+        
+        var handle = job.Schedule(numAnchors, 64);
+        handle.Complete();
+        
+        // Extract valid detections
         List<Detection> detections = new List<Detection>();
-
-        // 1. Parse YOLO Output
-        int numChannels = 4 + NUM_CLASSES; 
-        int numAnchors = data.Length / numChannels; 
-
         for (int i = 0; i < numAnchors; i++)
         {
-            float maxConf = 0f;
-            int maxClass = -1;
-
-            for (int c = 0; c < NUM_CLASSES; c++)
+            if (isValid[i])
             {
-                float conf = data[(4 + c) * numAnchors + i]; 
-                if (conf > maxConf) { maxConf = conf; maxClass = c; }
-            }
-
-            if (maxConf > confidenceThreshold)
-            {
-                float x = data[0 * numAnchors + i];
-                float y = data[1 * numAnchors + i];
-                float w = data[2 * numAnchors + i];
-                float h = data[3 * numAnchors + i];
-                
-                detections.Add(new Detection 
-                { 
-                    // Normalize coordinates (0-1)
-                    box = new Rect((x - w/2)/modelInputSize, (y - h/2)/modelInputSize, w/modelInputSize, h/modelInputSize), 
-                    conf = maxConf, 
-                    classId = maxClass 
-                });
+                detections.Add(nativeDetections[i]);
             }
         }
+        
+        // Dispose native arrays
+        nativeData.Dispose();
+        nativeDetections.Dispose();
+        isValid.Dispose();
 
         List<Detection> finalDetections = NMS(detections);
         

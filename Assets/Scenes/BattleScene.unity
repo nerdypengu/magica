@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &70479364
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3782,6 +3782,7 @@ MonoBehaviour:
   boxPrefab: {fileID: 1550075375738021647, guid: cf611cc10efb21e4d85cc97d4ebcc2d4, type: 3}
   boxContainer: {fileID: 1000744315}
   finalResultText: {fileID: 592168254}
+  boxPoolSize: 10
   currentDetectedWord: 
 --- !u!1 &1461669173
 GameObject:

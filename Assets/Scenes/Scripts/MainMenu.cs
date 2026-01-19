@@ -1,11 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+using System.Collections;
 
 public class MainMenuManager : MonoBehaviour
 {
     private const string SAVE_EXISTS_KEY = "HasSaveData";
     private const string LAST_SCENE_KEY = "LastScene";
     private const string LAST_NODE_KEY = "LastNodeID";
+    
+    [Header("UI Message")]
+    public TextMeshProUGUI messageText; // Drag UI Text here to show messages
 
     public void StartGame()
     {
@@ -32,6 +37,7 @@ public class MainMenuManager : MonoBehaviour
         if (!HasSaveData())
         {
             Debug.LogWarning("Tidak ada data save yang tersedia!");
+            ShowMessage("Tidak ada data save!\nMulai game baru terlebih dahulu.");
             return;
         }
 
@@ -78,6 +84,25 @@ public class MainMenuManager : MonoBehaviour
         }
         
         Debug.Log($"Game berhasil disimpan di {currentScene}, Node {currentNode}");
+    }
+    
+    void ShowMessage(string message)
+    {
+        if (messageText != null)
+        {
+            StopAllCoroutines(); // Stop any previous message
+            StartCoroutine(ShowMessageRoutine(message));
+        }
+    }
+    
+    IEnumerator ShowMessageRoutine(string message)
+    {
+        messageText.text = message;
+        messageText.gameObject.SetActive(true);
+        
+        yield return new WaitForSeconds(1f);
+        
+        messageText.gameObject.SetActive(false);
     }
 
     public void OpenSettings()

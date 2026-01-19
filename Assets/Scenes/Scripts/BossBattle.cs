@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class BossBattle : MonoBehaviour
 {
@@ -29,6 +30,11 @@ public class BossBattle : MonoBehaviour
     public float bossAttackSpeed = 5f; // Faster attacks for boss?
     public float bossDamage = 25f; 
     public float bossHealthMultiplier = 5f; // 5x Normal Health
+    
+    [Header("Level Requirement")]
+    public int requiredLevel = 4; // Boss requires level 4
+    public string returnScene = "Scene1";
+    public int returnNodeID = 81; // Teleport to node 81 if level insufficient
 
     // All Alphabets A-Z
     private List<string> allAlphabets = new List<string>() 
@@ -48,10 +54,53 @@ public class BossBattle : MonoBehaviour
 
     void Start()
     {
+        // Check level requirement FIRST
+        if (!CheckLevelRequirement())
+        {
+            return; // Don't start battle, return to Scene1
+        }
+        
         if(spellText != null) spellText.gameObject.SetActive(false);
 
         SetupBoss(); 
         StartNewRound();  
+    }
+    
+    bool CheckLevelRequirement()
+    {
+        if (PlayerStats.Instance == null) return true; // No PlayerStats, allow battle
+        
+        int playerLevel = PlayerStats.Instance.GetCurrentLevel();
+        
+        if (playerLevel < requiredLevel)
+        {
+            Debug.LogWarning($"Level insufficient! Required: {requiredLevel}, Current: {playerLevel}");
+            StartCoroutine(ReturnToSceneRoutine(playerLevel));
+            return false;
+        }
+        
+        Debug.Log($"Level check passed! Player Level: {playerLevel} >= Required: {requiredLevel}");
+        return true;
+    }
+    
+    IEnumerator ReturnToSceneRoutine(int playerLevel)
+    {
+        if (spellText != null)
+        {
+            spellText.text = $"LEVEL TIDAK CUKUP!\n\nDibutuhkan: Level {requiredLevel}\nLevel Anda: Level {playerLevel}\n\nKembali ke map dalam 3 detik...";
+            spellText.gameObject.SetActive(true);
+        }
+        
+        yield return new WaitForSeconds(2f);
+        
+        // Set return position
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.overrideTargetNodeID = returnNodeID;
+            Debug.Log($"[BossBattle] Insufficient level - Returning to {returnScene} Node {returnNodeID}");
+        }
+        
+        SceneManager.LoadScene(returnScene);
     }
 
     void SetupBoss()
