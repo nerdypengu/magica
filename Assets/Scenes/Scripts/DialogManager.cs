@@ -97,12 +97,21 @@ public class DialogManager : MonoBehaviour
                 if (npcSprite != null)
                 {
                     npcImage.sprite = npcSprite;
+                    npcImage.gameObject.SetActive(true);
+                    // Ensure full opacity
+                    npcImage.color = new Color(1, 1, 1, 1);
                 }
-                // Always show NPC image in dialog mode (sprite might be set from conversation start)
-                npcImage.gameObject.SetActive(true);
-                
-                // Ensure full opacity
-                npcImage.color = new Color(1, 1, 1, 1);
+                else if (npcImage.sprite != null)
+                {
+                    // Sprite already set (from conversation scene), keep visible
+                    npcImage.gameObject.SetActive(true);
+                    npcImage.color = new Color(1, 1, 1, 1);
+                }
+                else
+                {
+                    // No sprite at all, hide the image
+                    npcImage.gameObject.SetActive(false);
+                }
             }
         }
 
