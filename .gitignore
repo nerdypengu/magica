@@ -60,7 +60,9 @@ sysinfo.txt
 *.aab
 *.unitypackage
 *.app
-*.utmp
+
+# Ignore utmp folders
+**/utmp/
 
 # Crashlytics generated file
 crashlytics-build.properties
