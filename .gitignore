@@ -64,6 +64,7 @@ sysinfo.txt
 # Ignore utmp folders and all contents
 **/utmp/
 **/utmp/*
+**/.utmp/*
 
 # Crashlytics generated file
 crashlytics-build.properties

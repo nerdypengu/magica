@@ -80,8 +80,8 @@ public class BattleManager : MonoBehaviour
 
     private Dictionary<int, List<string>> levelDictionaries = new Dictionary<int, List<string>>()
     {
-        { 1, new List<string> { "A", "B", "C", "D", "E","F", "G", "H" } }, 
-        { 2, new List<string> { "I", "J", "K", "L", "M", "N", "O", "P" } }, 
+        { 1, new List<string> { "A", "B", "C", "D", "E","F" } }, 
+        { 2, new List<string> { "G","H","I", "J", "K", "L", "M", "N", "O", "P" } }, 
         { 3, new List<string> {"Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" } } 
     };
 
