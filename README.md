@@ -2,6 +2,10 @@
 
 A 2D RPG educational game built with Unity 6 that uses real-time hand gesture recognition (sign language) as its primary input mechanism. Players navigate the world, battle enemies, and interact with NPCs by performing hand signs detected through the device camera using ONNX machine learning models.
 
+### 🎥 Gameplay Trailer
+Check out the early gameplay demo and computer vision integration here:  
+👉 **[Watch the Demo on YouTube](https://youtu.be/1A46_NO6304)**
+
 ## Overview
 
 Magica teaches sign language through gameplay. Instead of traditional touch or controller input, players use hand gestures captured by the device camera. The game uses YOLO-based object detection models running on-device via Unity's Inference Engine to recognize signs in real time.
