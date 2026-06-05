@@ -12,6 +12,10 @@ Magica teaches sign language through gameplay. Instead of traditional touch or c
 Check out the early gameplay demo and computer vision integration here:  
 👉 **[Watch the Demo on YouTube](https://youtu.be/1A46_NO6304)**
 
+## Arsitektur Aplikasi
+
+![Arsitektur Aplikasi](screenshots/Arsitektur_Aplikasi.drawio.png)
+
 ## Gameplay Features
 
 ### Hand Gesture Movement
