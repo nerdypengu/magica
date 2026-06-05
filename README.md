@@ -2,7 +2,7 @@
 
 A 2D RPG educational game built with Unity 6 that uses real-time hand gesture recognition (sign language) as its primary input mechanism. Players navigate the world, battle enemies, and interact with NPCs by performing hand signs detected through the device camera using ONNX machine learning models.
 
-![Menu](screenshots/Menu.png)
+![Menu](screenshots/MainMenu.png)
 
 ## Overview
 
@@ -23,7 +23,7 @@ Check out the early gameplay demo and computer vision integration here:
 Navigate a node-based 2D map by signing directional gestures:
 - **Atas** (Up), **Bawah** (Down), **Kanan** (Right), **Kiri** (Left)
 
-![Gameplay - Map](screenshots/MainMenu.png)
+![Gameplay - Map](screenshots/Gameplay%20-%20Map.png)
 
 ### Spell-Casting Battle System
 
