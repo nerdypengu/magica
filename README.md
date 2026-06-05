@@ -23,7 +23,7 @@ Check out the early gameplay demo and computer vision integration here:
 Navigate a node-based 2D map by signing directional gestures:
 - **Atas** (Up), **Bawah** (Down), **Kanan** (Right), **Kiri** (Left)
 
-![Gameplay - Map](screenshots/Gameplay%20-%20Map.png)
+![Gameplay - Map](screenshots/MainMenu.png)
 
 ### Spell-Casting Battle System
 
